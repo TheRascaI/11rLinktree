@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from '@material-ui/core/Button';
+import Container from '@material-ui/core/Container';
+import "./App.css";
+
+import logo from "./logo.svg";
+import bg from "./bg11r.svg";
+
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="sm" className='main'>
+    <Container maxWidth="sm" className='header'>
+    <img className="bg-img" src={bg} alt="background" /> 
+    <img className="logo-img" src={logo} alt="logo" /> 
+    </Container>
+    <Container maxWidth="sm" className="buttons">
+    <Button href="https://www.mixcloud.com/lennye31/" variant="contained" fullWidth="true" color="primary">
+      Mixcloud
+    </Button>
+    <Button href="https://soundcloud.com/dj11r-422926436" variant="contained" fullWidth="true" color="primary">
+      Soundcloud
+    </Button>
+    <Button href="https://www.instagram.com/dj.11r/" variant="contained" fullWidth="true" color="primary">
+    Instagram
+    </Button>
+    <Button href="https://shop.spreadshirt.de/headless/dj11.r?collection=ZjoHGvruhO" variant="contained" fullWidth="true" color="primary">
+      Merch
+    </Button>
+    </Container>
+  
+    </Container>
+ 
   );
 }
 
