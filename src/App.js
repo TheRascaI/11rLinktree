@@ -17,6 +17,12 @@ function App() {
     <img className="bg-img" src={bg} alt="background" /> 
     <img className="logo-img" src={logo} alt="logo" /> 
     </Container>
+    <Container maxWidth="sm">
+    <h1>
+      DJ 11R
+    </h1>
+    <p>Techno | DARK Techno</p>
+    </Container>
     <Container maxWidth="sm" className="buttons">
     <Button href="https://www.mixcloud.com/lennye31/" variant="contained" fullWidth="true" color="primary">
       Mixcloud
