@@ -1,6 +1,7 @@
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import "./App.css";
+import ReactPlayer from "react-player";
 
 import logo from "./logo.svg";
 import bg from "./bg11r.svg";
@@ -22,8 +23,14 @@ function App() {
       DJ 11R
     </h1>
     <p>Techno | DARK Techno</p>
+    
     </Container>
     <Container maxWidth="sm" className="buttons">
+    <ReactPlayer
+        height="75px"
+        width="100%"
+        url="https://soundcloud.com/dj11r-422926436/sex"
+      />
     <Button href="https://www.mixcloud.com/lennye31/" variant="contained" fullWidth="true" color="primary">
       Mixcloud
     </Button>
