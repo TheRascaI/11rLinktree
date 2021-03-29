@@ -5,6 +5,7 @@ import ReactPlayer from "react-player";
 
 import logo from "./logo.svg";
 import bg from "./bg11r.svg";
+import DonationButton from "./Donation";
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -44,8 +45,15 @@ function App() {
       Merch
     </Button>
     </Container>
-  
+    <Container maxWidth="sm" className='footer'>
+    <p>with <span role="img" aria-label="jsx-a11y/accessible-emoji">❤️</span> by Mio Mideal</p>
+    <DonationButton 
+      url1="https://vcard.miomideal.com"
+      url2="https://paypal.me/miomideal?locale.x=de_DE"
+    />
     </Container>
+    </Container>
+   
  
   );
 }
