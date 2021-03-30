@@ -10,7 +10,7 @@ const DonationButton = props => {
    <IconButton size="small" color="primary" aria-label="upload picture" component="div">
          <Link href="https://vcard.miomideal.com"><MioIcon /></Link> 
         </IconButton>
-    <Button href="https://www.miomideal.com" size="small">Tip a Coffee</Button>
+    <Button href=""https://paypal.me/miomideal?locale.x=de_DE"" size="small">Tip a Coffee</Button>
   </ButtonGroup>
     )
 }
